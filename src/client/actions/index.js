@@ -1,9 +1,8 @@
-import { DUMMY_ACTION } from './types';
+import { SET_CURRENT_TIME } from './types';
 
 export function dummyAction() {
   return {
-    type: DUMMY_ACTION,
-    payload: `I am only here so import statements elsewhere do not break,
-    remove me after you create your own actions :)`,
+    type: SET_CURRENT_TIME,
+    payload: new Date(),
   };
 };
