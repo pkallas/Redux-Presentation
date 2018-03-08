@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import TimeReducer from './dummy_reducer';
+import TimeReducer from './time_reducer';
 
 const rootReducer = combineReducers({
   time: TimeReducer,
